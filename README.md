@@ -7,9 +7,9 @@ a aplicação”)
 
 # OBS
 
-BDD econtra-se na feature dentro do projeto.
+BDD encontra-se na feature dentro do projeto.
 
-* Requisitos
+# Requisitos
 
 * Java 8+ JDK deve estar instalado
 * Maven deve estar instalado e configurado no path da aplicação
