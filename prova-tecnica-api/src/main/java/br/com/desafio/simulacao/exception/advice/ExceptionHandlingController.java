@@ -1,7 +1,7 @@
 package br.com.desafio.simulacao.exception.advice;
 
-import br.com.sicredi.simulacao.dto.MessageDTO;
-import br.com.sicredi.simulacao.dto.ValidacaoDTO;
+import br.com.desafio.simulacao.dto.MessageDTO;
+import br.com.desafio.simulacao.dto.ValidacaoDTO;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

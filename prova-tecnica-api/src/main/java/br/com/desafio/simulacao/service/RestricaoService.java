@@ -1,6 +1,6 @@
 package br.com.desafio.simulacao.service;
 
-import br.com.sicredi.simulacao.entity.Restricao;
+import br.com.desafio.simulacao.entity.Restricao;
 
 import java.util.Optional;
 

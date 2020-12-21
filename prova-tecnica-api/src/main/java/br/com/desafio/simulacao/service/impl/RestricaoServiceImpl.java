@@ -1,8 +1,8 @@
 package br.com.desafio.simulacao.service.impl;
 
-import br.com.sicredi.simulacao.entity.Restricao;
-import br.com.sicredi.simulacao.repository.RestricaoRepository;
-import br.com.sicredi.simulacao.service.RestricaoService;
+import br.com.desafio.simulacao.entity.Restricao;
+import br.com.desafio.simulacao.repository.RestricaoRepository;
+import br.com.desafio.simulacao.service.RestricaoService;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;

@@ -1,11 +1,11 @@
 package br.com.desafio.simulacao.controller;
 
-import br.com.sicredi.simulacao.dto.MessageDTO;
-import br.com.sicredi.simulacao.dto.SimulacaoDTO;
-import br.com.sicredi.simulacao.dto.ValidacaoDTO;
-import br.com.sicredi.simulacao.entity.Simulacao;
-import br.com.sicredi.simulacao.exception.SimulacaoException;
-import br.com.sicredi.simulacao.repository.SimulacaoRepository;
+import br.com.desafio.simulacao.dto.MessageDTO;
+import br.com.desafio.simulacao.dto.SimulacaoDTO;
+import br.com.desafio.simulacao.dto.ValidacaoDTO;
+import br.com.desafio.simulacao.entity.Simulacao;
+import br.com.desafio.simulacao.exception.SimulacaoException;
+import br.com.desafio.simulacao.repository.SimulacaoRepository;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
@@ -99,7 +99,7 @@ public class SimulacaoController {
             setIfNotNull(simulacao::setSeguro, novaSimulacao.getSeguro());
 
             return repository.save(simulacao);
-        });
+        })
     }
 
     private <T> void setIfNotNull(final Consumer<T> setter, final T value) {

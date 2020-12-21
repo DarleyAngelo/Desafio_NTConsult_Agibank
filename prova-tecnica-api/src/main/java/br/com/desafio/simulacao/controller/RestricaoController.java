@@ -1,9 +1,9 @@
 package br.com.desafio.simulacao.controller;
 
-import br.com.sicredi.simulacao.dto.MessageDTO;
-import br.com.sicredi.simulacao.entity.Restricao;
-import br.com.sicredi.simulacao.exception.RestricaoException;
-import br.com.sicredi.simulacao.service.RestricaoService;
+import br.com.desafio.simulacao.dto.MessageDTO;
+import br.com.desafio.simulacao.entity.Restricao;
+import br.com.desafio.simulacao.exception.RestricaoException;
+import br.com.desafio.simulacao.service.RestricaoService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;

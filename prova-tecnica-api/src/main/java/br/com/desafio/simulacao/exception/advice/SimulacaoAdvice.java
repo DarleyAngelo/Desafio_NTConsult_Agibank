@@ -1,7 +1,7 @@
 package br.com.desafio.simulacao.exception.advice;
 
-import br.com.sicredi.simulacao.dto.MessageDTO;
-import br.com.sicredi.simulacao.exception.SimulacaoException;
+import br.com.desafio.simulacao.dto.MessageDTO;
+import br.com.desafio.simulacao.exception.SimulacaoException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

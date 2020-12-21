@@ -1,6 +1,6 @@
 package br.com.desafio.simulacao.repository;
 
-import br.com.sicredi.simulacao.entity.Simulacao;
+import br.com.desafio.simulacao.entity.Simulacao;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.repository.query.Param;

@@ -22,7 +22,8 @@ public class Simulacao {
 
     @NotNull(message = "Nome não pode ser vazio")
     private String nome;
-
+    
+   
     @NotNull(message = "CPF não pode ser vazio")
     private String cpf;
 
@@ -46,4 +47,8 @@ public class Simulacao {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+
+
+
 }

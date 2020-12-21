@@ -1,10 +1,10 @@
 package br.com.desafio.simulacao;
 
-import br.com.sicredi.simulacao.entity.Restricao;
-import br.com.sicredi.simulacao.entity.Simulacao;
-import br.com.sicredi.simulacao.entity.TipoRestricao;
-import br.com.sicredi.simulacao.repository.RestricaoRepository;
-import br.com.sicredi.simulacao.repository.SimulacaoRepository;
+import br.com.desafio.simulacao.entity.Restricao;
+import br.com.desafio.simulacao.entity.Simulacao;
+import br.com.desafio.simulacao.entity.TipoRestricao;
+import br.com.desafio.simulacao.repository.RestricaoRepository;
+import br.com.desafio.simulacao.repository.SimulacaoRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
