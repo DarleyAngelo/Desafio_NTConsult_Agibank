@@ -1,10 +1,7 @@
 package step_Definition;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
-
-
 import org.junit.Test;
-
 import util.geradorCPF;
 public class atualizaSimulacaoPUT {
 	geradorCPF geradorCPF = new geradorCPF();
